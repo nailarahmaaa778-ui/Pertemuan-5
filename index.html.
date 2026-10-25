@@ -1,3 +1,7 @@
+HTML
+
+
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -104,7 +108,12 @@
 
     <section id="profil">
         <h2>Profil Saya</h2>
-<img src="foto-profil.jpg" alt="Foto Profil Naila" width="200">
+
+        <img
+            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
+            alt="Foto Profil Naila"
+            width="200"
+        >
 
         <table class="profil">
             <tr>
@@ -154,22 +163,44 @@
 
     <section id="gallery" class="gallery">
         <h2>Gallery Foto</h2>
-<img src="foto-naila.jpg" alt="Foto Naila" width="250">
-<img src="gallery1.jpg" alt="Galeri Foto 1" width="250">
-<img src="gallery2.jpg" alt="Galeri Foto 2" width="250">
-<img src="galler3.jpg" alt="Galeri Foto 3" width="250">
-<img src="gallery4.jpg" alt="Galeri Foto 4" width="250">
+
+        <img
+            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
+            alt="Foto Naila"
+        >
+
+        <img
+            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
+            alt="Galeri Foto 1"
+        >
+
+        <img
+            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
+            alt="Galeri Foto 2"
+        >
+
+        <img
+            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
+            alt="Galeri Foto 3"
+        >
+
+        <img
+            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
+            alt="Galeri Foto 4"
+        >
 
         <p>Berikut adalah kumpulan foto saya.</p>
 
         <img
-            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600"
-            alt="Foto pemandangan alam">
+            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
+            alt="Foto pemandangan alam"
+        >
 
         <p>
             <img
-                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600"
-                alt="Foto perjalanan dan alam">
+                src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
+                alt="Foto perjalanan dan alam"
+            >
         </p>
     </section>
 
