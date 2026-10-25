@@ -51,6 +51,14 @@ HTML
             padding: 4px 8px 4px 0;
         }
 
+        .foto-profil {
+            width: 200px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+        }
+
         .gallery img {
             width: 250px;
             max-width: 100%;
@@ -81,15 +89,16 @@ HTML
         <h2>Assalamualaikum Wr. Wb.</h2>
 
         <p>
-            Apa kabar semua. Salam kenal, ini adalah web perdana saya.
+            Apa kabar semua? Salam kenal, ini adalah web perdana saya.
             Web ini berisi informasi tentang diri saya, profil,
-            kegemaran, dan beberapa foto. Semoga web ini dapat
+            kegemaran, dan foto saya. Semoga web ini dapat
             menginspirasi Anda pada waktu liburan.
         </p>
 
         <p>
             Kunjungi
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.google.com" target="_blank"
+               rel="noopener noreferrer">
                 Google
             </a>
             untuk mencari informasi di internet.
@@ -110,9 +119,9 @@ HTML
         <h2>Profil Saya</h2>
 
         <img
-            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
+            src="./WhatsApp%20Image%202026-10-25%20at%2013.19.02.jpeg"
             alt="Foto Profil Naila"
-            width="200"
+            class="foto-profil"
         >
 
         <table class="profil">
@@ -164,44 +173,15 @@ HTML
     <section id="gallery" class="gallery">
         <h2>Gallery Foto</h2>
 
+        <p>
+            Berikut adalah foto saya yang menjadi bagian
+            dari galeri website pribadi ini.
+        </p>
+
         <img
-            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
+            src="./WhatsApp%20Image%202026-10-25%20at%2013.19.02.jpeg"
             alt="Foto Naila"
         >
-
-        <img
-            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
-            alt="Galeri Foto 1"
-        >
-
-        <img
-            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
-            alt="Galeri Foto 2"
-        >
-
-        <img
-            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
-            alt="Galeri Foto 3"
-        >
-
-        <img
-            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
-            alt="Galeri Foto 4"
-        >
-
-        <p>Berikut adalah kumpulan foto saya.</p>
-
-        <img
-            src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
-            alt="Foto pemandangan alam"
-        >
-
-        <p>
-            <img
-                src="WhatsApp Image 2026-10-25 at 13.19.02.jpg"
-                alt="Foto perjalanan dan alam"
-            >
-        </p>
     </section>
 
     <hr>
@@ -215,16 +195,17 @@ HTML
         </p>
 
         <p>
-            Email :
+            Email:
             <a href="mailto:nailamutiaa7@gmail.com">
                 nailamutiaa7@gmail.com
             </a>
         </p>
 
         <p>
-            Instagram :
+            Instagram:
             <a href="https://www.instagram.com/nailaamutia_/"
-               target="_blank">
+               target="_blank"
+               rel="noopener noreferrer">
                 nailaamutia_
             </a>
         </p>
