@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi Naila Mutia Rahma</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 20px;
+            color: black;
+            background-color: white;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin-right: 8px;
+        }
+
+        section {
+            padding-top: 10px;
+            padding-bottom: 15px;
+            scroll-margin-top: 10px;
+        }
+
+        .profil {
+            border-collapse: collapse;
+        }
+
+        .profil td {
+            padding: 4px 8px 4px 0;
+        }
+
+        .gallery img {
+            width: 250px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="home">Website Pribadi Saya</h1>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#profil">Profil</a> |
+        <a href="#about">About</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <hr>
+
+    <section>
+        <h2>Assalamualaikum Wr. Wb.</h2>
+
+        <p>
+            Apa kabar semua. Salam kenal, ini adalah web perdana saya.
+            Web ini berisi informasi tentang diri saya, profil,
+            kegemaran, dan beberapa foto. Semoga web ini dapat
+            menginspirasi Anda pada waktu liburan.
+        </p>
+
+        <p>
+            Kunjungi
+            <a href="https://www.google.com" target="_blank">
+                Google
+            </a>
+            untuk mencari informasi di internet.
+        </p>
+
+        <p>
+            Silakan hubungi saya jika ada yang ingin didiskusikan
+            melalui email
+            <a href="mailto:nailamutiaa7@gmail.com">
+                nailamutiaa7@gmail.com
+            </a>.
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="profil">
+        <h2>Profil Saya</h2>
+
+        <table class="profil">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td>Naila Mutia Rahma</td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>:</td>
+                <td>Bisnis Digital</td>
+            </tr>
+            <tr>
+                <td>Universitas</td>
+                <td>:</td>
+                <td>Universitas Ma'soem</td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>Adventure</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+
+        <p>
+            Halo! Saya Naila Mutia Rahma, mahasiswi Program Studi
+            Bisnis Digital yang sedang belajar dan mengembangkan
+            kemampuan di bidang bisnis, teknologi digital,
+            kreativitas, dan dunia media sosial.
+        </p>
+
+        <p>
+            Di luar perkuliahan, saya suka menikmati keindahan alam,
+            mengunjungi tempat-tempat menarik, dan menghabiskan
+            waktu bersama teman-teman. Bagi saya, setiap perjalanan
+            dan momen sederhana selalu punya cerita yang berkesan.
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery Foto</h2>
+
+        <p>Berikut adalah kumpulan foto saya.</p>
+
+        <img
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600"
+            alt="Foto pemandangan alam">
+
+        <p>
+            <img
+                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600"
+                alt="Foto perjalanan dan alam">
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="kontak">
+        <h2>Kontak Saya</h2>
+
+        <p>
+            Terima kasih telah mengunjungi website saya.
+            Anda bisa menghubungi saya melalui:
+        </p>
+
+        <p>
+            Email :
+            <a href="mailto:nailamutiaa7@gmail.com">
+                nailamutiaa7@gmail.com
+            </a>
+        </p>
+
+        <p>
+            Instagram :
+            <a href="https://www.instagram.com/nailaamutia_/"
+               target="_blank">
+                nailaamutia_
+            </a>
+        </p>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>Website Pribadi Naila Mutia Rahma</p>
+    </footer>
+
+</body>
+</html>
