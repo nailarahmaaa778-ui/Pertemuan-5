@@ -154,6 +154,11 @@
 
     <section id="gallery" class="gallery">
         <h2>Gallery Foto</h2>
+<img src="foto-naila.jpg" alt="Foto Naila" width="250">
+<img src="gallery1.jpg" alt="Galeri Foto 1" width="250">
+<img src="gallery2.jpg" alt="Galeri Foto 2" width="250">
+<img src="galler3.jpg" alt="Galeri Foto 3" width="250">
+<img src="gallery4.jpg" alt="Galeri Foto 4" width="250">
 
         <p>Berikut adalah kumpulan foto saya.</p>
 
